@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Um dia na sorveteria</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="assets/sorveteria.jfif" alt="">
+            <p>Em um dia quente, decido ir a sorveteria</p>
+            <button class="btn-proximo" data-proximo="1">Comprar açai</button>
+            <button class="btn-proximo" data-proximo="2">Comprar sorvete</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Escolhendo o açai, você precisa escolher o adicional</p>
+            <button class="btn-proximo" data-proximo="3">Colocar adicionais</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa, o preço estava muito alto</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você vai até o freezer dos sorvetes e precisa escolher o sabor</p>
+            <button class="btn-proximo" data-proximo="5">Escolher sabor</button>
+            <button class="btn-proximo" data-proximo="6">Pegar um picolé</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você coloca os adicionais e vai para o caixa</p>
+            <button class="btn-proximo" data-proximo="7">Ir ao caixa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="assets/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa triste por não ter dinheiro">
+            <p>Você vê que estava pobre demais e volta para casa triste</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você abre o freezer e se depara com um açaí com um preço ótimo</p>
+            <button class="btn-proximo" data-proximo="7">Pegar açaí</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você vai até o freezer do picolé para escolher seu picolé</p>
+            <button class="btn-proximo" data-proximo="8">Escolher picolé</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você precisa decidir se irá pegar um picolé ou apenas pagar o açaí</p>
+            <button class="btn-proximo" data-proximo="9">Pagar apenas o açai</button>
+            <button class="btn-proximo" data-proximo="10">Pegar um picolé</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você vê um açaí com um ótimo preço ao lado, e decide pegar-lo</p>
+            <button class="btn-proximo" data-proximo="7">Pegar o açaí</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você conversa com a moça do caixa para pagar o açaí</p>
+            <button class="btn-proximo" data-proximo="11">Pagar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você vai até o freezer onde está os picolés</p>
+            <button class="btn-proximo" data-proximo="12">Escolher picolé</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="assets/comendo.jpg" alt="Comendo açaí">
+            <p>Você sai feliz da sorveteria com seu açaí, podendo se refrescar em um dia quente</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você vê que o picolé estava muito caro e decide pegar apenas o açaí</p>
+            <button class="btn-proximo" data-proximo="11">Pagar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
